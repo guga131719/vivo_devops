@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projeto_vivo-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: projeto_vivo
+  template:
+    metadata:
+      labels:
+        app: projeto_vivo
+    spec:
+      containers:
+        - name: projeto_vivo-container
+          image: teste-vivo-docker:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NAME
+              value: $(NAME)

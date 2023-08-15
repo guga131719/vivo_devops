@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: projeto_vivo-configmap
+data:
+  NAME: SEU_NOME
+
