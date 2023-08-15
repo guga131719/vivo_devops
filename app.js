@@ -4,7 +4,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
 
     const name = process.env.NAME || 'Desconhecido';
-    res.end(`Olá ${name}!\n`);
+    res.end(`Ola ${name}!\n`);
 });
 
 const port = process.env.PORT || 3000;
