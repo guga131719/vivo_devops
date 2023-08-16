@@ -1,16 +1,16 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: projeto_vivo-ingress
+  name: projeto-vivo-ingress
 spec:
   rules:
-    - host: projeto_vivo.local #projeto_vivo.com
+    - host: projeto-vivo.com #projeto_vivo.com
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: projeto_vivo-service
+                name: projeto-vivo-service
                 port:
                   number: 80

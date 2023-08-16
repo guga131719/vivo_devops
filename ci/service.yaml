@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: projeto_vivo-service
+  name: projeto-vivo-service
 spec:
   selector:
-    app: projeto_vivo
+    app: projeto-vivo
   ports:
     - protocol: TCP
       port: 80
