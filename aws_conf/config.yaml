@@ -1,0 +1,34 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJUmsyeGJuVjViZll3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TXpBNE1UWXdNelExTkRCYUZ3MHpNekE0TVRNd016UTFOREJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUM4NURHc1FLMEZqV21zL05zdmNkQVhqdzcrb092aFREL21UMTdSeHZwWTNYa0hUcDkrL3ZEdnNFbEQKdVEyNVpZVzRsK21wUDN6YWhQRFZTR25LRkkwQWJQTDVTWkwzR3BtMFhXM3d2WmU3NWVwTnpnVk8wMUtrb3ZRTwp2aloxSUlDU0oxcDhjYnNOQkNzSEZScFdtTHV0Ti9Fcm5kVDBGSkxFN3ZBcWlBbWFobUNESnk3TXY5WDBmR0swClJxdzNXSWQ0NVRaTHhxeWp1SWhueGVxalYxNUkxazRBZnVwdHE4MitIMFJnOTZKM3BjOW15cURlakpDMVpWZjMKN0d6Z05tYWZSU2RtTUt4alVBNmxqYzRxOEFNVVJKaVpFc3pGaldvcDdWRWliajdQZzZkZ2V3MVpLV0VUZEsxMApoVGw1anhiWHJHMHZNUUtacVpyNVBHdjUvTkhqQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSWDRMSVZQcUIwTUo0UFB2M1FPQU83UlBZbWhqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQktIQm41SCtJdwpoZGJIWWIyUDVCTTFzbi95L1ZPOFRYN1J1aW5JNGpRU0hrbkY4elE4eDhMNjlLSTd5bVdKcElmYi9GQkpyYnZYClJOM2RhTXJpRy9lOTVFVzR4WlBFYUdvK0hGSkhKajlJTTd4bnh2R1hPOU1WTXBnTTRBTlhsYjhXcmpBT1p0TngKUnppSkozN3pIK3ovU1VrS1FUdnNTaDVKbGRDUC9iU2ZHcXUvMDJKMlZMa0hKUU1ISXlMcys4MkUvUmJTcENqOQpraXFNY1lJYTZBYUtCWFR2eUpvZ0JzOW5FbWcxNzNvbEZTdXZ2ajN0Z3VTN2pFWldaUXpzM21HUTJlT3ducGtICm11d01heDlheW9kWmZoZXVEbTBBYkVQUzFaYUt6NktvZUJzOGxlYjg3UUxYUkdaNDBuSjR1a1BNTjlZMWJUcE0KeFV4djlhdkxGL3JJCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://0BEEB4E1F0E54127C60BA4C3A95E8437.yl4.us-east-2.eks.amazonaws.com
+  name: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+contexts:
+- context:
+    cluster: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+    user: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+  name: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+current-context: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:us-east-2:598644838858:cluster/projeto_vivo
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-2
+      - eks
+      - get-token
+      - --cluster-name
+      - projeto_vivo
+      - --output
+      - json
+      command: aws
+
+# Access key ID,Secret access key
+# AKIAYWYQDKHFOJEBOAOV,PqC7yMG8P8t625uHS6FGV8KhUMKL+OsZmIuIadsp
+
+# file C:\Users\guga\.kube\config
