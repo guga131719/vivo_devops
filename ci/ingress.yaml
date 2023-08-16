@@ -4,7 +4,7 @@ metadata:
   name: projeto_vivo-ingress
 spec:
   rules:
-    - host: projeto_vivo.local
+    - host: projeto_vivo.local #projeto_vivo.com
       http:
         paths:
           - path: /

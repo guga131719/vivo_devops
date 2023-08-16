@@ -18,5 +18,5 @@ spec:
           ports:
             - containerPort: 3000
           env:
-            - name: prod
-              value: $(prod)
+            - name: NAME
+              value: $(NAME)
