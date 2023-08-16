@@ -28,7 +28,4 @@ users:
       - json
       command: aws
 
-# Access key ID,Secret access key
-# AKIAYWYQDKHFOJEBOAOV,PqC7yMG8P8t625uHS6FGV8KhUMKL+OsZmIuIadsp
-
 # file C:\Users\guga\.kube\config
