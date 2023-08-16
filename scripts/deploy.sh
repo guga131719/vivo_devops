@@ -1,8 +1,8 @@
 #!/bin/bash
 
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl apply -f ingress.yaml
-kubectl apply -f configmap.yaml
+kubectl apply -f ./ci/deployment.yaml
+kubectl apply -f ./ci/service.yaml
+kubectl apply -f ./ci/ingress.yaml
+kubectl apply -f ./ci/configmap.yaml
 
-echo "Aplicação implantada!"
+echo "Aplicacao implantada!"
