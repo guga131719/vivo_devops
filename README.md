@@ -7,7 +7,7 @@ Verificando a Instalação do Minikube
 
 Certifique-se de que o Minikube está instalado. Abra um terminal e execute o seguinte comando:
 
-bash
+```bash
 
 minikube version
 
@@ -16,7 +16,7 @@ Iniciando o Minikube
 
 Se o Minikube não estiver em execução, você pode iniciá-lo executando:
 
-bash
+```bash
 
 minikube start
 
@@ -25,7 +25,7 @@ Verificando o Status do Cluster
 
 Após a inicialização do Minikube, você pode verificar o status do cluster com o seguinte comando:
 
-bash
+```bash
 
 minikube status
 
