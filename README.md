@@ -94,11 +94,6 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para executar aplic
     ```
     Se não estiver realizar os passos abaixo
     ```bash
-        # Nome do Projeto
-        Descrição curta do projeto.
-
-        ## Instalação do Istio
-
         #Siga os passos abaixo para instalar o Istio em seu sistema.
 
         # Passo 1: Baixe o Istio
