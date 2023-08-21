@@ -126,6 +126,6 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para executar aplic
 3. Acesse a aplicação:
 - Abra o navegador e vá para http://projeto-vivo.com
 
-![Teste Projeto]()
+![Teste Projeto](https://github.com/guga131719/vivo_devops/blob/master/teste_vivo.png)
 
 A aplicação responderá com "Olá gustavo".
