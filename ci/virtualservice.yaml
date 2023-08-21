@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: projeto-vivo-virtualservice
+spec:
+  gateways:
+    - projeto-vivo-gateway
+  hosts:
+    - "projeto-vivo.com"
+  http:
+    - route:
+        - destination:
+            host: projeto-vivo-service
+            port:
+              number: 80

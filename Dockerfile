@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:14-alpine
 
 WORKDIR /app
 
@@ -7,6 +7,8 @@ RUN npm install
 
 COPY . .
 
-ENV NAME="gustavo"
+ENV NAME=${NAME}
+
+EXPOSE 3000
 
 CMD ["node", "app.js"]

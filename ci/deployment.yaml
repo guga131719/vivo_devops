@@ -17,6 +17,6 @@ spec:
           image: projeto-vivo-img:latest
           ports:
             - containerPort: 3000
-          env:
-            - name: NAME
-              value: $(NAME)
+          envFrom:
+            - configMapRef:
+                name: projeto-vivo-configmap

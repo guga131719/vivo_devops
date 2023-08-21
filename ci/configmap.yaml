@@ -3,5 +3,4 @@ kind: ConfigMap
 metadata:
   name: projeto-vivo-configmap
 data:
-  NAME: gustavo
-
+  NAME: "gustavo"
