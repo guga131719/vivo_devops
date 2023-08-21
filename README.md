@@ -1,6 +1,6 @@
 # Aplicacao Teste vivo Devops 
 
-Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a aplicação no Minikube localmente, siga os passos abaixo:
+Esta é uma aplicação simples que responde "Olá gustavo". Para executar aplicação no Minikube localmente, siga os passos abaixo:
 
 1. Certifique-se de que você tenha o **Minikube, Docker  e Istio** instalado e configurado corretamente.
 
@@ -125,5 +125,7 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a ap
 
 3. Acesse a aplicação:
 - Abra o navegador e vá para http://projeto-vivo.com
+
+![Teste Projeto]()
 
 A aplicação responderá com "Olá gustavo".
