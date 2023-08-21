@@ -2,8 +2,9 @@
 
 Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a aplicação no Minikube localmente, siga os passos abaixo:
 
-1. Certifique-se de que você tenha o Minikube, Docker  e Istio instalado e configurado corretamente.
+1. Certifique-se de que você tenha o **Minikube, Docker  e Istio** instalado e configurado corretamente.
 
+    1.1 Verificar se o Minikube está instalado:
     Abra um terminal e execute o seguinte comando:
 
     ```bash
@@ -53,7 +54,7 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a ap
     Se você visualizar uma lista de pods, isso indica que o kubectl está configurado corretamente para trabalhar com o Minikube.
 
 
-    - Verificar se o Docker está instalado:
+    1.2 Verificar se o Docker está instalado:
     Abra um terminal e execute o seguinte comando para verificar se o Docker já está instalado:
    
     ```bash
@@ -85,7 +86,7 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a ap
         sudo docker --version            
     ```
 
-    - Verificar se o Istio está instalado:
+    1.3 Verificar se o Istio está instalado:
     Abra um terminal e execute o seguinte comando para verificar se o Istio já está instalado:
    
     ```bash
