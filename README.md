@@ -8,8 +8,10 @@ Verificando a Instalação do Minikube
 Certifique-se de que o Minikube está instalado. Abra um terminal e execute o seguinte comando:
 
 ```bash
+Comando para verificar se o existe o minikube instalado
 
 minikube version
+```
 
 Se a versão do Minikube for exibida, isso indica que o Minikube está instalado corretamente.
 Iniciando o Minikube
