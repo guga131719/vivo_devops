@@ -88,11 +88,11 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para implantar a ap
     Verificar se o Istio está instalado:
     Abra um terminal e execute o seguinte comando para verificar se o Istio já está instalado:
    
-    ``bash
+    ```bash
     istioctl version
     ```
     Se não estiver realizar os passos abaixo
-    ``bash
+    ```bash
         # Nome do Projeto
         Descrição curta do projeto.
 
