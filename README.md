@@ -99,7 +99,7 @@ Esta é uma aplicação simples que responde "Olá gustavo". Para executar aplic
 
         ## Instalação do Istio
 
-        Siga os passos abaixo para instalar o Istio em seu sistema.
+        #Siga os passos abaixo para instalar o Istio em seu sistema.
 
         # Passo 1: Baixe o Istio
         curl -L https://istio.io/downloadIstio | sh -
